@@ -1,9 +1,11 @@
 **Project Overview**
 
 This project demonstrates basic CRUD operations (Create, Read, Update, Delete) on an Employee entity using Hibernate.
-It has two versions:
-HQLDemo.java – Uses Hibernate Query Language (HQL).
-NativeSQLDemo.java – Uses native SQL queries.
+
+**It has two versions:**
+
+1. HQLDemo.java – Uses Hibernate Query Language (HQL).
+2. NativeSQLDemo.java – Uses native SQL queries.
 
 **Features**
 
