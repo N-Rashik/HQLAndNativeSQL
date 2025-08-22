@@ -19,7 +19,7 @@ Exit the program (EXIT)
 | Feature     | HQL                  | Native SQL                |
 | ----------- | -------------------- | ------------------------- |
 | Query       | Uses entity names    | Uses table names          |
-| Example     | `from Employee`      | `SELECT * FROM employee1` |
+| Example     | from Employee      | SELECT * FROM employee1 |
 | Portability | Database-independent | Database-specific         |
 
 
