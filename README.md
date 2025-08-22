@@ -7,12 +7,12 @@ NativeSQLDemo.java – Uses native SQL queries.
 
 **Features**
 
-Add a new employee (CREATE)
-View employee by ID (READ)
-Update employee email (UPDATE)
-Delete employee by ID (DELETE)
-View all employees (READ ALL)
-Exit the program (EXIT)
+1. Add a new employee (CREATE)
+2. View employee by ID (READ)
+3. Update employee email (UPDATE)
+4. Delete employee by ID (DELETE)
+5. View all employees (READ ALL)
+6. Exit the program (EXIT)
 
 **Difference Between HQL & Native SQL**
 
