@@ -1,30 +1,32 @@
-**Project Overview**
+# Employee CRUD Operations with Hibernate
 
-This project demonstrates basic CRUD operations (Create, Read, Update, Delete) on an Employee entity using Hibernate.
+This project demonstrates fundamental CRUD operations—**Create**, **Read**, **Update**, and **Delete**—on an `Employee` entity using Hibernate ORM in Java.
 
-**It has two versions:**
+## Versions Included
 
-1. HQLDemo.java – Uses Hibernate Query Language (HQL).
-2. NativeSQLDemo.java – Uses native SQL queries.
+1. **HQLDemo.java** – Implements CRUD operations using Hibernate Query Language (HQL).
+2. **NativeSQLDemo.java** – Implements CRUD operations using native SQL queries.
 
-**Features**
+## Features
 
-1. Add a new employee (CREATE)
-2. View employee by ID (READ)
-3. Update employee email (UPDATE)
-4. Delete employee by ID (DELETE)
-5. View all employees (READ ALL)
-6. Exit the program (EXIT)
+- **Add Employee:** Create and insert a new employee record.
+- **View Employee by ID:** Retrieve employee details using their unique ID.
+- **Update Employee Email:** Change the email address of an existing employee.
+- **Delete Employee by ID:** Remove an employee record from the database.
+- **View All Employees:** List details of all employees.
+- **Exit Program:** Safely close resources and terminate the application.
 
-**Difference Between HQL & Native SQL**
+## HQL vs Native SQL
 
-| Feature     | HQL                  | Native SQL                |
-| ----------- | -------------------- | ------------------------- |
-| Query       | Uses entity names    | Uses table names          |
-| Example     | from Employee      | SELECT * FROM employee1 |
-| Portability | Database-independent | Database-specific         |
+| Feature           | HQL                          | Native SQL                  |
+|-------------------|------------------------------|-----------------------------|
+| Query Syntax      | Uses entity/class names       | Uses table/column names      |
+| Example           | `from Employee`               | `SELECT * FROM employee1`    |
+| Portability       | Database-independent          | Database-specific            |
+| Performance       | Optimized by Hibernate        | Depends on DB implementation |
+| Flexibility       | Limited to mapped entities    | Full SQL capabilities        |
 
 
-**Author**
+## Author
 
-Rashik N.
+**Rashik N.**
